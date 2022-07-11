@@ -1,0 +1,63 @@
+#home {
+    color: white;
+    min-height: 100vh;
+}
+
+.cv {
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.icon svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+#skill {
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    #home p {
+        font-size: .9rem;
+    }
+    #home h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #home img {
+        height: 85%;
+    }
+    #home p {
+        font-size: .9rem;
+    }
+    #home h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #home img {
+        width: 38%;
+        height: 98%;
+    }
+    #home h1 {
+        font-size: 1.8rem;
+    }
+    #home p {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #home h1 {
+        font-size: 1.3rem;
+    }
+    #home p {
+        font-size: .5rem;
+    }
+}
+  
