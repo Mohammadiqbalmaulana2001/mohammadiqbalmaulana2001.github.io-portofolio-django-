@@ -1,7 +1,9 @@
 #home {
     color: white;
     min-height: 100vh;
+    padding-top: 75px;
 }
+
 
 .cv {
     color: white;
@@ -15,7 +17,14 @@
 }
 
 #skill {
-    color: white;
+    min-height:100px ;
+    width: 100%;
+    color:white ;
+}
+
+#skill img {
+    width:12% ;
+    margin: 10px; 
 }
 
 @media screen and (max-width: 1200px) {
@@ -41,20 +50,29 @@
 
 @media screen and (max-width: 576px) {
     #home img {
-        width: 38%;
-        height: 98%;
+        width: 60%;
+        height: 95%;
+        padding-top: 30px;
     }
     #home h1 {
+        font-size: 2rem;
+        margin-top:3rem ;
+    }
+
+    #home h2 {
         font-size: 1.8rem;
+        margin-bottom: 60px;
     }
     #home p {
-        font-size: .7rem;
+        font-size: .9rem;
+        margin-bottom: 30rem;
     }
 }
 
 @media screen and (max-width: 375px) {
     #home h1 {
         font-size: 1.3rem;
+       
     }
     #home p {
         font-size: .5rem;
